@@ -18,7 +18,7 @@ La copia en el main vault es para consulta. Los archivos de entrega viven en `do
 - Cada integrante debe aportar entre cinco y siete historias en su propio archivo y realizar su propio commit. Sólo se preparó el archivo de Angel, cuya identidad consta en la configuración Git local.
 - El equipo debe validar la priorización colectiva.
 - El [Kanban de semana 2](https://github.com/users/angeldavid218/projects/2/views/1) ya está creado con siete historias. Es público y está vinculado al fork local; confirmar si también debe vincularse al repositorio padre para la entrega.
-- Publicar los commits en el repositorio del equipo mediante su flujo de ramas y revisión; la existencia local de archivos no constituye su carga en GitHub.
+- Los commits están publicados en [docs/product-blueprint-semana2](https://github.com/angeldavid218/stellar-contract-verification/tree/docs/product-blueprint-semana2/docs/semana2). Falta integrar la documentación en la rama de entrega del equipo mediante revisión.
 - Cargar el repositorio en Apex según el plazo indicado por la convocatoria: domingo 4 de octubre, 5:00 p.m., hora México. Verificar la zona horaria que utiliza la plataforma; no se convierte automáticamente a la zona del dispositivo.
 
 ## Evidencia y límites de la revisión
@@ -35,4 +35,4 @@ La copia en el main vault es para consulta. Los archivos de entrega viven en `do
 | [SEP-58 vigente](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0058.md) | Draft v0.6.0: diferencia entre vocabulario vigente y formato implementado. |
 | [Plantilla oficial de semana 2](https://github.com/mestupinanm/ProyectoBase/tree/main/docs/semana2) | Estructura y orden de los documentos. |
 
-La revisión leyó código y documentación; no ejecutó el frontend, el backend ni verificaciones on-chain. Los criterios del MVP son comprobaciones pendientes, no tests aprobados. No se declara aprobación del equipo, publicación de los documentos en GitHub ni envío a Apex sin evidencia.
+La revisión leyó código y documentación; no ejecutó el frontend, el backend ni verificaciones on-chain. Los criterios del MVP son comprobaciones pendientes, no tests aprobados. La rama está publicada en GitHub. No se declara aprobación del equipo, integración en main ni envío a Apex.
