@@ -2,7 +2,7 @@
 
 **Nombre del proyecto:** CSV Verify — Contract Source Verify  
 **Repositorio local / origen:** [angeldavid218/stellar-contract-verification](https://github.com/angeldavid218/stellar-contract-verification)  
-**Repositorio padre del equipo, por confirmar para entrega:** [sebasberrios-dev/stellar-contract-verification](https://github.com/sebasberrios-dev/stellar-contract-verification)  
+**Repositorio de entrega del equipo:** [gchacon011/stellar-contract-verification](https://github.com/gchacon011/stellar-contract-verification)  
 **Fecha:** 4 de octubre de 2026  
 **Estado:** propuesta basada en evidencia del código; pendiente de contraste con Problem Brief y revisión colectiva.
 
@@ -92,7 +92,7 @@ El lienzo vive en este mismo repositorio y reúne los nueve bloques en una pági
 
 Cada tarjeta contiene la historia y criterios de aceptación comprobables. Ready exige historia y criterios definidos; In review exige evidencia de prueba; Done exige criterios cumplidos y revisión del equipo. El equipo asignará responsables al validar la selección colectiva. El backlog operativo vive en GitHub Projects y no se duplica como archivo de entrega.
 
-El tablero es público y está vinculado al repositorio `angeldavid218/stellar-contract-verification`. El equipo debe confirmar el repositorio final de entrega y enlazar allí este mismo tablero si utiliza el repositorio padre.
+El tablero es público y está vinculado al repositorio `angeldavid218/stellar-contract-verification`. El repositorio de entrega confirmado es `gchacon011/stellar-contract-verification`; este mismo tablero público se enlaza desde el documento y puede vincularse también a ese repositorio.
 
 ---
 
@@ -100,7 +100,7 @@ El tablero es público y está vinculado al repositorio `angeldavid218/stellar-c
 
 La interfaz usa Next.js, React y TypeScript. El formulario envía un Contract ID a las acciones y rutas del servidor; el navegador no accede directamente al backend. La dirección del verificador permanece en la configuración del servidor. Esta capa entrega respuestas estructuradas para consulta y presentación.
 
-La lógica de verificación está en un backend Rust con Axum, consultado en la rama `demo-backend` del repositorio padre. No está presente en el checkout local revisado. El backend recupera el artefacto desplegado, interpreta metadatos, obtiene la fuente y solicita la reconstrucción a Docker. Calcula SHA-256 sobre ambos artefactos y persiste el resultado en SQLite, asociado al contrato, red y hash. GitHub aporta la fuente; SQLite almacena evidencia derivada, no sustituye la red.
+La lógica de verificación está en un backend Rust con Axum, consultado en la rama `demo-backend` del repositorio `sebasberrios-dev/stellar-contract-verification`. No está presente en el checkout local revisado. El backend recupera el artefacto desplegado, interpreta metadatos, obtiene la fuente y solicita la reconstrucción a Docker. Calcula SHA-256 sobre ambos artefactos y persiste el resultado en SQLite, asociado al contrato, red y hash. GitHub aporta la fuente; SQLite almacena evidencia derivada, no sustituye la red.
 
 **La red entra** cuando Stellar RPC resuelve la instancia del contrato y recupera el código WASM mediante lecturas del ledger. La reconstrucción y comparación ocurren fuera de Stellar. No se necesita desplegar un contrato adicional ni escribir resultados on-chain.
 

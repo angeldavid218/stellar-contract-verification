@@ -13,11 +13,11 @@ La copia en el main vault es para consulta. Los archivos de entrega viven en `do
 
 ## Pendientes que condicionan la entrega
 
-- Confirmar qué repositorio entregará el equipo: el origen local es un fork de `sebasberrios-dev/stellar-contract-verification`.
+- Repositorio de entrega confirmado: [gchacon011/stellar-contract-verification](https://github.com/gchacon011/stellar-contract-verification); integrar allí la rama de documentación mediante revisión.
 - Aportar `docs/semana1/ProblemBrief.md` y contrastar usuario, problema y criterio de pertinencia. No se inventó un Problem Brief retroactivo.
 - Cada integrante debe aportar entre cinco y siete historias en su propio archivo y realizar su propio commit. Sólo se preparó el archivo de Angel, cuya identidad consta en la configuración Git local.
 - El equipo debe validar la priorización colectiva.
-- El [Kanban de semana 2](https://github.com/users/angeldavid218/projects/2/views/1) ya está creado con siete historias. Es público y está vinculado al fork local; confirmar si también debe vincularse al repositorio padre para la entrega.
+- El [Kanban de semana 2](https://github.com/users/angeldavid218/projects/2/views/1) ya está creado con siete historias. Es público y está vinculado al fork local; el enlace es accesible desde el blueprint; el equipo puede vincularlo también a `gchacon011/stellar-contract-verification`.
 - Los commits están publicados en [docs/product-blueprint-semana2](https://github.com/angeldavid218/stellar-contract-verification/tree/docs/product-blueprint-semana2/docs/semana2). Falta integrar la documentación en la rama de entrega del equipo mediante revisión.
 - Cargar el repositorio en Apex según el plazo indicado por la convocatoria: domingo 4 de octubre, 5:00 p.m., hora México. Verificar la zona horaria que utiliza la plataforma; no se convierte automáticamente a la zona del dispositivo.
 
